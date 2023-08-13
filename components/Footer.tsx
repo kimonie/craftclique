@@ -45,7 +45,7 @@ const Footer = () => {
           <FooterColumn title={footerLinks[6].title} links={footerLinks[6].links} />
         </div>
       </div>
-      <div className="flex justify-between footer-copyright">
+      <div className="flex space-between footer-copyright">
         <p>@ 2023 Craft Clique. All rights reserved</p>
         <p className="text-gray">
           <span className="text-black font-semibold">5,879</span> projects submitted.
